@@ -1,0 +1,65 @@
+html
+{
+    /* Add a background to differentiate between the Resume page and the rest of the screen */
+    background-color: black;
+}
+
+
+body
+{
+    /* Setting up the margins to center the document in the center of the screen */ 
+    margin-top : 15px;
+    margin-bottom : 70px;
+    margin-left : 500px;
+    margin-right: 500px;
+    
+    /* Set a border around the entire document. */
+    border : double;
+    border-color: gold;
+    
+    /* Set the padding of the main div, so the text is not up against the border. */
+    padding-left: 70px;
+    padding-right: 70px;
+    
+    /* Set the backgound color to override the background color from the html tag. */
+    background-color: white;
+}
+
+
+/* Settings for the main header on the page. */
+#mainHeader
+{
+    /* Set the bottom border to solid, to create and underline.*/
+    border-bottom: solid;
+    
+    /* Adjust the margins for spacing. */
+    margin-bottom: 10px;
+    
+    /* Change the font of the main header */    
+    font-family: 'Abhaya Libre', serif;
+}
+
+
+/* Settings for the contact information section just below the main heading. */
+#contactInformation
+{
+    /*align the contact information to the right of the page. */
+    text-align: right;
+    
+    /* Adjust the margins for spacing. */
+    margin-top: 10px;
+}
+
+
+/*settings for all the sub headings on the page. */
+.subHeaders
+{
+    /* Set the bottom border to solid, to create and underline.*/
+    border-bottom: solid;
+}
+
+
+.lists
+{
+      list-style-type: georgian;
+}
