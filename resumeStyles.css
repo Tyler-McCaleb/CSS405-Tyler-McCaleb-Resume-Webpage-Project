@@ -8,11 +8,11 @@ html
 body
 {
     /* Setting up the margins to center the document in the center of the screen */ 
-    margin-top : 15px;
-    margin-bottom : 70px;
-    margin-left : 500px;
-    margin-right: 500px;
-    
+    margin-top : .2%;
+    margin-bottom : .2%;
+    margin-left : 5%;
+    margin-right: 5%;
+  
     /* Set a border around the entire document. */
     border : double;
     border-color: gold;
@@ -23,6 +23,15 @@ body
     
     /* Set the backgound color to override the background color from the html tag. */
     background-color: white;
+    
+    clear: both;
+    text-align: left;
+    
+    /* Change the font of the main header */    
+    font-family: 'Abhaya Libre', serif;
+    
+    /* set the font size for the body */
+    font-size: 16pt;
 }
 
 
@@ -40,26 +49,134 @@ body
 }
 
 
+/* Settings for header infomration (picture and contact infomration */
+#contactAndPhoto
+{
+     /* adjust paddings and margins for the layout */
+     padding: 1px;
+     padding-left: 0px;
+     padding-bottom: 0px;
+     margin-bottom: 115px;
+     margin-left: 0px;
+
+}
+
+
 /* Settings for the contact information section just below the main heading. */
 #contactInformation
 {
     /*align the contact information to the right of the page. */
     text-align: right;
-    
-    /* Adjust the margins for spacing. */
+          
+    /* Adjust the padings and margins for spacing. */
     margin-top: 10px;
+    margin-right: 1px;
+    margin-left: 0%;
+    padding: 1px;
+    
+    /* adjust the text to be on the right of the picture */
+    float: right;
+    
 }
+
+/* Settings for the header image */ 
+#headerPhoto
+{
+    /* Adjust the margins and paddings for spacing */        
+    padding-left: 0px;        
+    padding-top: 70px;
+    margin-right: 57%;
+    margin-left: 0px;
+    
+    /* set the picture to be to the left of the text */
+    float: left;
+    
+    /* adjust the size and rotation of the image */
+    transform: rotate(90deg);
+    width: 300px;
+    
+ }
+ 
 
 
 /*settings for all the sub headings on the page. */
 .subHeaders
 {
+    /* clear the float styles from the headings */
+    clear: both;
+    
     /* Set the bottom border to solid, to create and underline.*/
     border-bottom: solid;
+    
+    /* adjust padding for spacing */
+    padding-top: 30px;
 }
 
 
-.lists
+/* seetings for the navigation bar container */
+#navigationContainer
 {
-      list-style-type: georgian;
+     /* set the bottom border to solid to create an underline */
+     border-bottom: solid;
+     
+     /* adjust padding for spacing */
+     padding: 2px;
+     margin: 1px;
+}
+
+
+/* settings for the navagation bar */
+.navagationBar
+{
+    overflow: hidden;
+}
+
+/* settings for the item inside the navigation bar */
+.navigationBar a
+{
+    text-align: center;
+}
+
+
+/* Settigns for the active link in the navagation bar */
+.navigationBar a.active
+{
+     background-color: gold;
+}
+
+
+/* Settings for the footer*/
+footer
+{
+      /* clear the float styles from the footer */
+      clear: both;
+      
+      /* set border to seperate the footer from the rest of the page */
+      border-top: solid;
+      
+      /* set the font size of the footer */
+      font-size: 10pt;
+      
+      /* right align the text in the footer */
+      text-align: right;
+}
+
+
+#pdfResume
+{ 
+
+  /* set the size of the pdf object */
+  width: 100%;
+  height: 800px;
+  
+  /* center align the pdf object */  
+  align: center;
+}
+
+
+#pdfContainer
+{
+   /* adjust margins and padding for spacing */
+   padding-bottom: 0px;
+   margin-bottom: 5px;
 }
