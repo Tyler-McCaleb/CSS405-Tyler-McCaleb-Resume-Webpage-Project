@@ -119,9 +119,6 @@ body
      /* set the bottom border to solid to create an underline */
      border-bottom: solid;
      
-     /* adjust padding for spacing */
-     padding: 2px;
-     margin: 1px;
 }
 
 
@@ -135,6 +132,10 @@ body
 .navigationBar a
 {
     text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 0px 20px;
+    margin: 0px;
 }
 
 
