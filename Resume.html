@@ -8,6 +8,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Abhaya+Libre" rel="stylesheet">
 </head>
 
+
+
+<div id = "wrapper">
+
 <!-- Create the Header for the webpage -->
 <header>
 	<h1 id="mainHeader">Jeffrey Tyler McCaleb</h1>
@@ -26,14 +30,20 @@
 <body id ="body">
 
 		<!-- Div to contain the information and an image -->
-	<div id = "contactAndPhoto">
+		<div id = "contactAndPhoto">
 			
 	 	<!-- Create a div so that contact information can be right aligned -->
-	  	<p id="contactInformation">
-		   	<p><img id = "headerPhoto" src ="resumePicture2.jpeg" alt = "Header Image">5556 Gates Avenue | Long Beach, MS 39560</p>
+	  	<div id="contactInformation">
+			
+			<!-- Insert an image that is floated to the left -->
+			<img id = "headerPhoto" src ="resumePicture2.jpeg" alt = "Header Image">
+			   			
+			<!-- Enter Contact Information and float it to the right -->
+		   	<p>5556 Gates Avenue | Long Beach, MS 39560</p>
 			<p>228-229-6882 | <a href="mailto:Jeffrey.Mccaleb@usm.edu">Jeffrey.Mccaleb@usm.edu</a></p>
 			<p>GitHub Profile | <a href = "https://github.com/Tyler-McCaleb">Tyler-McCaleb</a></p>
-		</p>
+					
+		</div>
 		
 	</div>
 
@@ -91,11 +101,18 @@
 
 <!-- create a footer for the page -->
 <footer>
+
+	<div id = "toTop">
+	   <a href = "#top"> Return to Top </a>
+	</div>
+	
+	<div id = "footerInfo">
 	<p> Created by: Tyler McCaleb </p>
 	<p> Resume Webpage project for CSS 405 </p>
-	<p id = "toTop">
-	   <a href = "#top"> Return to Top </a>
-	</p>
+	</div>
+
 </footer>
+
+</div>
 
 </html>

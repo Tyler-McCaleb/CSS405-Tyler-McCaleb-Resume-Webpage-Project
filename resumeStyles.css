@@ -7,11 +7,9 @@ html
 
 body
 {
-    /* Setting up the margins to center the document in the center of the screen */ 
-    margin-top : .2%;
-    margin-bottom : .2%;
-    margin-left : 5%;
-    margin-right: 5%;
+    /* Setting up the margins to center the document in the center of the screen */   
+    margin:auto;
+    width: 85%;
   
     /* Set a border around the entire document. */
     border : double;
@@ -58,6 +56,9 @@ body
      padding-bottom: 0px;
      margin-bottom: 115px;
      margin-left: 0px;
+     
+     /* Set width of the container for the contact information and photo*/
+     width: 100%;
 
 }
 
@@ -76,6 +77,8 @@ body
     
     /* adjust the text to be on the right of the picture */
     float: right;
+    
+    width: 100%;
     
 }
 
@@ -180,4 +183,17 @@ footer
    /* adjust margins and padding for spacing */
    padding-bottom: 0px;
    margin-bottom: 5px;
+}
+
+
+/*Setting for the to top link in the footer*/
+#toTop
+{
+   float:left;
+}
+
+
+/*Settings for the footer information*/
+{
+    float:right;
 }
