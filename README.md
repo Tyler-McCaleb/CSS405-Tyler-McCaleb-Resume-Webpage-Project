@@ -15,5 +15,5 @@
 
 #### Sprint 3
 ##### This sprint included the creation of a Home and Contact page.
-##### The Contact page included a form with a submit button, however the submit button was not functional, and only sends the user with a message informing them of this.
+##### The Contact page included a form with a submit button, however the submit button was not functional, and only sends the user to a page with a message informing them of this.
 ##### The header and footer were also put into their own .php files, and were included in each webpage by use of php include functions.
