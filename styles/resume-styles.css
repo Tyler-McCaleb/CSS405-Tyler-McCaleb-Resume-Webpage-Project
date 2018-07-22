@@ -44,6 +44,9 @@ body
     
     /* Change the font of the main header */    
     font-family: 'Abhaya Libre', serif;
+
+    /* Add space above the header. */
+    margin-top: 20px;
 }
 
 
@@ -192,8 +195,39 @@ footer
    float:left;
 }
 
-
-/*Settings for the footer information*/
+/* Setting for the download button */
+#downloadLink
 {
-    float:right;
+    color: black;
+    margin-top: 50px;
+}
+
+
+/* Setting for text on home page */
+#homeText
+{
+    text-align: center;
+    vertical-align: middle;
+
+    height: 75%;
+}
+
+/*settings for home image */
+#homeImage
+{
+    width:20%;
+    height:20%;
+}
+
+
+/*settings for contact form*/
+#contactForm
+{
+    height: 78%;
+}
+
+/* settings for contact message field*/
+#contactMessageField
+{
+
 }

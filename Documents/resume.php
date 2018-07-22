@@ -1,33 +1,31 @@
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
 	<meta charset="utf-8"/>
 	<title>Resume - Jeffrey Tyler McCaleb</title>
-	<link rel = "stylesheet" href="resumeStyles.css"/>
+	<link rel = "stylesheet" href="../styles/resume-styles.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Abhaya+Libre" rel="stylesheet">
 </head>
 
-
+<?php include "header.php"; ?>
 
 <div id = "wrapper">
-
-<!-- Create the Header for the webpage -->
-<header>
-	<h1 id="mainHeader">Jeffrey Tyler McCaleb</h1>
-	
-		<!-- Create a container for the navigation bar -->
-	<div id = "navigationContainer">	 
-		 <!-- create the navitatin bar for the webpage -->
-		 <div class = "navigationBar">
-				<a class = "active" href = "Resume.html">Home</a>
-				<a href = "PDFResume.html">PDF Version</a>
-  		 </div>
-	</div>
-</header>
 		 
 <!-- Main Body of the Webpage -->
 <body id ="body">
+
+
+		<!-- Create a container for the navigation bar -->
+		<div id = "navigationContainer">	 
+		 <!-- create the navitatin bar for the webpage -->
+		 <div class = "navigationBar">
+		 		<a href = "index.php">Home</a>
+				<a class = "active" href = "resume.php">Resume</a>
+				<a href = "pdf_Resume.php">PDF</a>
+				<a href = "contact_form.php">Contact</a>
+  		 </div>
+		</div>
 
 		<!-- Div to contain the information and an image -->
 		<div id = "contactAndPhoto">
@@ -36,7 +34,7 @@
 	  	<div id="contactInformation">
 			
 			<!-- Insert an image that is floated to the left -->
-			<img id = "headerPhoto" src ="resumePhoto.jpeg" alt = "Header Image">
+			<img id = "headerPhoto" src ="../pictures/resume-photo.jpeg" alt = "Header Image">
 			   			
 			<!-- Enter Contact Information and float it to the right -->
 		   	<p>5556 Gates Avenue | Long Beach, MS 39560</p>
@@ -66,7 +64,7 @@
       	    	</ul>
       			</li>
 			</ul>
-		 <p><strong>CSC 317</strong> | Object Oreiented Programming</p>
+		 <p><strong>CSC 317</strong> | Object Oriented Programming</p>
     	 	<ul>
      	 		<li>Learned concepts of object-oriented programming to complete a project.</li>
 				<li>Introduced to dynamics of group based design by way of semester long project.</li>
@@ -99,19 +97,7 @@
     </div>
 </body>
 
-<!-- create a footer for the page -->
-<footer>
-
-	<div id = "toTop">
-	   <a href = "#top"> Return to Top </a>
-	</div>
-	
-	<div id = "footerInfo">
-	<p> Created by: Tyler McCaleb </p>
-	<p> Resume Webpage project for CSS 405 </p>
-	</div>
-
-</footer>
+<?php include "footer.php"; ?>
 
 </div>
 
