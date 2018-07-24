@@ -28,7 +28,7 @@
 
     <!-- Create a container to hold the text of this page. -->
     <div id = "homeText">
-        <h1> CSS 405 Resume Webpage Project </h1>
+        <h1> Resume Website Project </h1>
         <h2> Summer 2018 </h2>
         <h3>Created using: </h3>
         <img id = "homeImage" src ="../pictures/home_image.jpg" alt = "Home Image">
